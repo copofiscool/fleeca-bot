@@ -5,9 +5,9 @@ import { doPuzzle } from './puzzle-handler.js'
 
 
 
-document.addEventListener("DOMContentLoaded", function() {
+window.onload = function() {
     start();
-  });
+  };
 // runs on site load and handles entire  flow
 async function start(){
 
