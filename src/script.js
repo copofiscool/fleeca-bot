@@ -3,9 +3,15 @@
 import { $, delay, playSound } from './helpers.js'
 import { doPuzzle } from './puzzle-handler.js'
 
+
+
+document.addEventListener("DOMContentLoaded", function() {
+    start();
+  });
 // runs on site load and handles entire  flow
 async function start(){
 
+    print("working")
     // reset from previous
     $('.try-again').classList.add('hidden')
     $('.spy-icon').src = 'assets/spy-icon.png'
@@ -49,13 +55,13 @@ async function start(){
         await delay(5)
     }
 
-    fetch('https://hacking/callback', {
+/*     fetch('https://hacking/callback', {
         method: 'POST', 
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
             success: result
         }) 
-      });
+      }); */
 
     $(".bg").classList.add('hidden');
 
