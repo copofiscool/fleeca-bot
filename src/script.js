@@ -10,8 +10,7 @@ window.onload = function() {
   };
 // runs on site load and handles entire  flow
 async function start(){
-/* 
-    print("working") */
+
     // reset from previous
     $('.try-again').classList.add('hidden')
     $('.spy-icon').src = 'assets/spy-icon.png'
