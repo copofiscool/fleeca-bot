@@ -1,6 +1,6 @@
 "use strict"
 
-import { $, delay, playSound } from './helpers.js'
+/* import { $, delay, playSound } from './helpers.js' */
 import { doPuzzle } from './puzzle-handler.js'
 
 
@@ -14,7 +14,7 @@ async function start(){
     $('.try-again').classList.add('hidden')
     $('.spy-icon').src = 'assets/spy-icon.png'
 
-    const dialing = playSound('assets/dialing.mp3', 0.1)
+/*     const dialing = playSound('assets/dialing.mp3', 0.1) */
 
     // mock loading screen
     setInformationText('ESTABLISHING CONNECTION')
