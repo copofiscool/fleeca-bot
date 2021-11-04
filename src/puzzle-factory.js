@@ -1,4 +1,3 @@
-import { randomInt, sample } from './helpers.js'
 import TRANSLATIONS from './language.js'
 
 const selectedLang = TRANSLATIONS.SELECTED_LANGUAGE
