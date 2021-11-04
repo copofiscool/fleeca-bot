@@ -5,9 +5,9 @@ import { doPuzzle } from './puzzle-handler.js'
 
 
 
-/* window.onload = function() {
+window.onload = function() {
     start();
-  }; */
+  };
 // runs on site load and handles entire  flow
 async function start(){
     // reset from previous
