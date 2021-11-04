@@ -1,6 +1,5 @@
 "use strict"
 
-/* import { $, delay, playSound } from './helpers.js' */
 import { doPuzzle } from './puzzle-handler.js'
 
 

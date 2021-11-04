@@ -1,4 +1,4 @@
-/* import { $, shuffleArray, delay, playSound } from './helpers.js' */
+
 import { generateRandomPuzzle, generateQuestionAndAnswer } from './puzzle-factory.js'
 import { getPuzzleSvg } from './svg-factory.js'
 
