@@ -1,4 +1,4 @@
-import { $, shuffleArray, delay, playSound } from './helpers.js'
+/* import { $, shuffleArray, delay, playSound } from './helpers.js' */
 import { generateRandomPuzzle, generateQuestionAndAnswer } from './puzzle-factory.js'
 import { getPuzzleSvg } from './svg-factory.js'
 
@@ -28,7 +28,7 @@ export async function doPuzzle(){
     const nums = shuffleArray([...Array(puzzleAmount)].map((v, i) => i+1))
     await displayNumbers(nums)
 
-    const metronome = playSound('assets/metronome.mp3')
+/*     const metronome = playSound('assets/metronome.mp3') */
 
     // clear and focus input window
     $('.answer-section').classList.remove('hidden')
